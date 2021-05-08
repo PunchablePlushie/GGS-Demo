@@ -1,0 +1,202 @@
+{
+	"0": {
+		"name": "fullscreen",
+		"default": {
+			"value": false,
+			"window_script_path": "res://src/setting_logic/window_scale.gd",
+			"window_setting_index": 1
+		},
+		"current": {
+			"value": false,
+			"window_script_path": "res://src/setting_logic/window_scale.gd",
+			"window_setting_index": 1
+		},
+		"logic": "res://src/setting_logic/fullscreen.gd"
+	},
+	"1": {
+		"name": "window_scale",
+		"default": {
+			"value": 0,
+			"min_scale": 1
+		},
+		"current": {
+			"value": 0,
+			"min_scale": 1
+		},
+		"logic": "res://src/setting_logic/window_scale.gd"
+	},
+	"2": {
+		"name": "music_volume",
+		"default": {
+			"value": 0.5,
+			"bus_name": "Music"
+		},
+		"current": {
+			"value": 0.5,
+			"bus_name": "Music"
+		},
+		"logic": "res://src/setting_logic/audio_slider.gd"
+	},
+	"3": {
+		"name": "music_mute",
+		"default": {
+			"value": false,
+			"bus_name": "Music"
+		},
+		"current": {
+			"value": false,
+			"bus_name": "Music"
+		},
+		"logic": "res://src/setting_logic/audio_mute.gd"
+	},
+	"4": {
+		"name": "sfx_volume",
+		"default": {
+			"value": 1,
+			"bus_name": "Sfx"
+		},
+		"current": {
+			"value": 1,
+			"bus_name": "Sfx"
+		},
+		"logic": "res://src/setting_logic/audio_slider.gd"
+	},
+	"5": {
+		"name": "sfx_mute",
+		"default": {
+			"value": false,
+			"bus_name": "Sfx"
+		},
+		"current": {
+			"value": false,
+			"bus_name": "Sfx"
+		},
+		"logic": "res://src/setting_logic/audio_mute.gd"
+	},
+	"6": {
+		"name": "kb_move_right",
+		"default": {
+			"value": 68,
+			"action_name": "move_right"
+		},
+		"current": {
+			"value": 68,
+			"action_name": "move_right"
+		},
+		"logic": "res://src/setting_logic/keybind_kb.gd"
+	},
+	"7": {
+		"name": "kb_move_left",
+		"default": {
+			"value": 65,
+			"action_name": "move_left"
+		},
+		"current": {
+			"value": 65,
+			"action_name": "move_left"
+		},
+		"logic": "res://src/setting_logic/keybind_kb.gd"
+	},
+	"8": {
+		"name": "kb_move_up",
+		"default": {
+			"value": 87,
+			"action_name": "move_up"
+		},
+		"current": {
+			"value": 87,
+			"action_name": "move_up"
+		},
+		"logic": "res://src/setting_logic/keybind_kb.gd"
+	},
+	"9": {
+		"name": "kb_move_down",
+		"default": {
+			"value": 83,
+			"action_name": "move_down"
+		},
+		"current": {
+			"value": 83,
+			"action_name": "move_down"
+		},
+		"logic": "res://src/setting_logic/keybind_kb.gd"
+	},
+	"10": {
+		"name": "gp_move_right",
+		"default": {
+			"value": 15,
+			"action_name": "move_right"
+		},
+		"current": {
+			"value": 15,
+			"action_name": "move_right"
+		},
+		"logic": "res://src/setting_logic/keybind_gp.gd"
+	},
+	"11": {
+		"name": "gp_move_left",
+		"default": {
+			"value": 14,
+			"action_name": "move_left"
+		},
+		"current": {
+			"value": 14,
+			"action_name": "move_left"
+		},
+		"logic": "res://src/setting_logic/keybind_gp.gd"
+	},
+	"12": {
+		"name": "gp_move_up",
+		"default": {
+			"value": 12,
+			"action_name": "move_up"
+		},
+		"current": {
+			"value": 12,
+			"action_name": "move_up"
+		},
+		"logic": "res://src/setting_logic/keybind_gp.gd"
+	},
+	"13": {
+		"name": "gp_move_down",
+		"default": {
+			"value": 13,
+			"action_name": "move_down"
+		},
+		"current": {
+			"value": 13,
+			"action_name": "move_down"
+		},
+		"logic": "res://src/setting_logic/keybind_gp.gd"
+	},
+	"14": {
+		"name": "player_name",
+		"default": {
+			"value": "Steven"
+		},
+		"current": {
+			"value": "Steven"
+		},
+		"logic": "res://src/setting_logic/player_name.gd"
+	},
+	"15": {
+		"name": "background_color",
+		"default": {
+			"value": 0
+		},
+		"current": {
+			"value": 0
+		},
+		"logic": "res://src/setting_logic/background_color.gd"
+	},
+	"16": {
+		"name": "player_speed",
+		"default": {
+			"value": 200
+		},
+		"current": {
+			"value": 200
+		},
+		"logic": "res://src/setting_logic/player_speed.gd"
+	}
+}

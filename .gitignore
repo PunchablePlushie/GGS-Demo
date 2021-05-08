@@ -1,0 +1,13 @@
+# Godot-specific ignores
+Base/.import/
+Base/export.cfg
+Base/export_presets.cfg
+Finished/.import/
+Finished/export.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/

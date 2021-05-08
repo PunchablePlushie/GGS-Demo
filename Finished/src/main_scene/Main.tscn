@@ -1,0 +1,57 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://src/main_scene/player_name.gd" type="Script" id=1]
+[ext_resource path="res://src/main_scene/Player.gd" type="Script" id=2]
+[ext_resource path="res://assets/audio/CopyCat.wav" type="AudioStream" id=3]
+[ext_resource path="res://assets/sprites/player.png" type="Texture" id=4]
+[ext_resource path="res://src/main_scene/background.gd" type="Script" id=5]
+
+[node name="Main" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+modulate = Color( 1, 1, 1, 0.196078 )
+margin_left = -3.0
+margin_top = -6.0
+margin_right = 652.0
+margin_bottom = 379.0
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Player" type="Sprite" parent="."]
+position = Vector2( 320, 180 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 4 )
+script = ExtResource( 2 )
+
+[node name="BGMCredits" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = 3.97632
+margin_top = 341.195
+margin_right = 390.976
+margin_bottom = 356.195
+text = "Music: CopyCat by Syncopika on OpenGameArts"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="PlayerName" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BGMPlayer" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
+stream = ExtResource( 3 )
+autoplay = true
+bus = "Music"
+
+[node name="Gui" type="CanvasLayer" parent="."]
