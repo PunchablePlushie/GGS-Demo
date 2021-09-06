@@ -125,49 +125,57 @@
 		"name": "gp_move_right",
 		"default": {
 			"value": 15,
-			"action_name": "move_right"
+			"action_name": "move_right",
+			"axis": -1
 		},
 		"current": {
 			"value": 15,
-			"action_name": "move_right"
+			"action_name": "move_right",
+			"axis": -1
 		},
-		"logic": "res://src/setting_logic/keybind_gp.gd"
+		"logic": "res://addons/GGS/logic/keybind_gp.gd"
 	},
 	"11": {
 		"name": "gp_move_left",
 		"default": {
 			"value": 14,
-			"action_name": "move_left"
+			"action_name": "move_left",
+			"axis": -1
 		},
 		"current": {
 			"value": 14,
-			"action_name": "move_left"
+			"action_name": "move_left",
+			"axis": -1
 		},
-		"logic": "res://src/setting_logic/keybind_gp.gd"
+		"logic": "res://addons/GGS/logic/keybind_gp.gd"
 	},
 	"12": {
 		"name": "gp_move_up",
 		"default": {
 			"value": 12,
-			"action_name": "move_up"
+			"action_name": "move_up",
+			"axis": -1
 		},
 		"current": {
 			"value": 12,
-			"action_name": "move_up"
+			"action_name": "move_up",
+			"axis": -1
 		},
-		"logic": "res://src/setting_logic/keybind_gp.gd"
+		"logic": "res://addons/GGS/logic/keybind_gp.gd"
 	},
 	"13": {
 		"name": "gp_move_down",
 		"default": {
 			"value": 13,
-			"action_name": "move_down"
+			"action_name": "move_down",
+			"axis": -1
 		},
 		"current": {
 			"value": 13,
-			"action_name": "move_down"
+			"action_name": "move_down",
+			"axis": -1
 		},
-		"logic": "res://src/setting_logic/keybind_gp.gd"
+		"logic": "res://addons/GGS/logic/keybind_gp.gd"
 	},
 	"14": {
 		"name": "player_name",

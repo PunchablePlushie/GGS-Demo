@@ -371,13 +371,13 @@ custom_constants/separation = 15
 
 [node name="Label" type="Label" parent="Mrgn/Pnl/VBox/Settings/Mrgn/VBox/Controls/Controls/MoveRight"]
 margin_top = 4.0
-margin_right = 326.0
+margin_right = 336.0
 margin_bottom = 18.0
 size_flags_horizontal = 3
 text = "Move Right"
 
 [node name="Keyboard" parent="Mrgn/Pnl/VBox/Settings/Mrgn/VBox/Controls/Controls/MoveRight" instance=ExtResource( 8 )]
-margin_left = 341.0
+margin_left = 351.0
 margin_right = 371.0
 margin_bottom = 22.0
 setting_index = 6
@@ -398,13 +398,13 @@ custom_constants/separation = 15
 
 [node name="Label" type="Label" parent="Mrgn/Pnl/VBox/Settings/Mrgn/VBox/Controls/Controls/MoveLeft"]
 margin_top = 4.0
-margin_right = 326.0
+margin_right = 336.0
 margin_bottom = 18.0
 size_flags_horizontal = 3
 text = "Move Left"
 
 [node name="Keyboard" parent="Mrgn/Pnl/VBox/Settings/Mrgn/VBox/Controls/Controls/MoveLeft" instance=ExtResource( 8 )]
-margin_left = 341.0
+margin_left = 351.0
 margin_right = 371.0
 margin_bottom = 22.0
 setting_index = 7
@@ -425,13 +425,13 @@ custom_constants/separation = 15
 
 [node name="Label" type="Label" parent="Mrgn/Pnl/VBox/Settings/Mrgn/VBox/Controls/Controls/Move Up"]
 margin_top = 4.0
-margin_right = 326.0
+margin_right = 336.0
 margin_bottom = 18.0
 size_flags_horizontal = 3
 text = "Move Up"
 
 [node name="Keyboard" parent="Mrgn/Pnl/VBox/Settings/Mrgn/VBox/Controls/Controls/Move Up" instance=ExtResource( 8 )]
-margin_left = 341.0
+margin_left = 351.0
 margin_right = 371.0
 margin_bottom = 22.0
 setting_index = 8
@@ -452,13 +452,13 @@ custom_constants/separation = 15
 
 [node name="Label" type="Label" parent="Mrgn/Pnl/VBox/Settings/Mrgn/VBox/Controls/Controls/Move Down"]
 margin_top = 4.0
-margin_right = 326.0
+margin_right = 336.0
 margin_bottom = 18.0
 size_flags_horizontal = 3
 text = "Move Down"
 
 [node name="Keyboard" parent="Mrgn/Pnl/VBox/Settings/Mrgn/VBox/Controls/Controls/Move Down" instance=ExtResource( 8 )]
-margin_left = 341.0
+margin_left = 351.0
 margin_right = 371.0
 margin_bottom = 22.0
 setting_index = 9
@@ -523,6 +523,7 @@ margin_right = 414.0
 rect_min_size = Vector2( 150, 0 )
 text = "Red"
 items = [ "Red", null, false, 0, null, "Green", null, false, 1, null, "Blue", null, false, 2, null ]
+selected = 0
 setting_index = 15
 
 [node name="PlayerSpeed" type="HBoxContainer" parent="Mrgn/Pnl/VBox/Settings/Mrgn/VBox/Misc"]
